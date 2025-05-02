@@ -86,7 +86,7 @@ class registrarPrimeraParteViewController: UIViewController {
         }
         
         let alerta = UIAlertController(title: titulo, message: mensaje, preferredStyle: .alert)
-        alerta.addAction(UIAlertAction(title: "OK", style: .default))
+        alerta.addAction(UIAlertAction(title: "Aceptar", style: .default))
         self.present(alerta, animated: true)
     }
 

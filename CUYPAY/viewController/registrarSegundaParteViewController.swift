@@ -154,9 +154,10 @@ class registrarSegundaParteViewController: UIViewController {
 
         DispatchQueue.main.async {
             if httpResponse.statusCode == 200 {
-                self.mostrarAlerta(titulo: "Éxito", mensaje: "Registro exitoso")
+                self.mostrarAlerta(titulo: "Registro completado", mensaje: "Tu registro se ha realizado correctamente.")
             } else {
-                self.mostrarAlerta(titulo: "Error", mensaje: "Error del servidor (\(httpResponse.statusCode))")
+                self.mostrarAlerta(titulo: "Cuenta existente", mensaje: "Ya existe una cuenta registrada con estos datos.")
+
                     }
             }
         }
@@ -168,7 +169,7 @@ class registrarSegundaParteViewController: UIViewController {
     func mostrarAlerta(titulo: String, mensaje: String) {
        
         let alert = UIAlertController(title: titulo, message: mensaje, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default)
+        alert.addAction(UIAlertAction(title: "Aceptar", style: .default)
         { _ in
             self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
         })
