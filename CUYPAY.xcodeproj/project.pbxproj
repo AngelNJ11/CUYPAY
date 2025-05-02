@@ -3,48 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C4CD31A2DC0A2FC00CA187F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4CD3192DC0A2FC00CA187F /* Usuario.swift */; };
-		6C4CD3202DC0A53800CA187F /* registrarPrimeraParteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4CD31F2DC0A53800CA187F /* registrarPrimeraParteViewController.swift */; };
-		6C4CD3222DC0A82600CA187F /* registrarSegundaParteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4CD3212DC0A82600CA187F /* registrarSegundaParteViewController.swift */; };
 		B74257122DB05EE100DA7613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74257112DB05EE100DA7613 /* AppDelegate.swift */; };
 		B74257142DB05EE100DA7613 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74257132DB05EE100DA7613 /* SceneDelegate.swift */; };
-		B74257162DB05EE100DA7613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74257152DB05EE100DA7613 /* ViewController.swift */; };
 		B74257192DB05EE100DA7613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74257172DB05EE100DA7613 /* Main.storyboard */; };
 		B742571C2DB05EE100DA7613 /* CUYPAY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B742571A2DB05EE100DA7613 /* CUYPAY.xcdatamodeld */; };
 		B742571E2DB05EE200DA7613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B742571D2DB05EE200DA7613 /* Assets.xcassets */; };
 		B74257212DB05EE200DA7613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B742571F2DB05EE200DA7613 /* LaunchScreen.storyboard */; };
-		B7429B3D2DBFFFC60000F62E /* CalcularMovimientoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7429B3C2DBFFFC60000F62E /* CalcularMovimientoViewController.swift */; };
-		B7429B3F2DC010A90000F62E /* ListarMovimientoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7429B3E2DC010A90000F62E /* ListarMovimientoViewController.swift */; };
-		B7429B412DC013BF0000F62E /* MovimentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7429B402DC013BF0000F62E /* MovimentoTableViewCell.swift */; };
-		B7429B442DC015EF0000F62E /* user+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7429B422DC015EF0000F62E /* user+CoreDataClass.swift */; };
-		B7429B452DC015EF0000F62E /* user+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7429B432DC015EF0000F62E /* user+CoreDataProperties.swift */; };
-		B7429B472DC01DD60000F62E /* Movimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7429B462DC01DD60000F62E /* Movimiento.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C4CD3192DC0A2FC00CA187F /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
-		6C4CD31F2DC0A53800CA187F /* registrarPrimeraParteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrarPrimeraParteViewController.swift; sourceTree = "<group>"; };
-		6C4CD3212DC0A82600CA187F /* registrarSegundaParteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrarSegundaParteViewController.swift; sourceTree = "<group>"; };
 		B742570E2DB05EE100DA7613 /* CUYPAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUYPAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74257112DB05EE100DA7613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B74257132DB05EE100DA7613 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B74257152DB05EE100DA7613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B74257182DB05EE100DA7613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B742571B2DB05EE100DA7613 /* CUYPAY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CUYPAY.xcdatamodel; sourceTree = "<group>"; };
 		B742571D2DB05EE200DA7613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B74257202DB05EE200DA7613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B74257222DB05EE200DA7613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7429B3C2DBFFFC60000F62E /* CalcularMovimientoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcularMovimientoViewController.swift; sourceTree = "<group>"; };
-		B7429B3E2DC010A90000F62E /* ListarMovimientoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarMovimientoViewController.swift; sourceTree = "<group>"; };
-		B7429B402DC013BF0000F62E /* MovimentoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovimentoTableViewCell.swift; sourceTree = "<group>"; };
-		B7429B422DC015EF0000F62E /* user+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "user+CoreDataClass.swift"; sourceTree = "<group>"; };
-		B7429B432DC015EF0000F62E /* user+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "user+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B7429B462DC01DD60000F62E /* Movimiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movimiento.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6CC98B622DC4A82700F154C3 /* class */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = class; sourceTree = "<group>"; };
+		6CC98B652DC4A91200F154C3 /* coreDataClass */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = coreDataClass; sourceTree = "<group>"; };
+		6CC98B662DC4A91E00F154C3 /* coreDataProperties */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = coreDataProperties; sourceTree = "<group>"; };
+		6CC98B772DC4A97F00F154C3 /* viewController */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = viewController; sourceTree = "<group>"; };
+		6CC98B812DC4A99700F154C3 /* viewCell */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = viewCell; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B742570B2DB05EE100DA7613 /* Frameworks */ = {
@@ -60,8 +48,6 @@
 		B74257052DB05EE100DA7613 = {
 			isa = PBXGroup;
 			children = (
-				B7429B422DC015EF0000F62E /* user+CoreDataClass.swift */,
-				B7429B432DC015EF0000F62E /* user+CoreDataProperties.swift */,
 				B74257102DB05EE100DA7613 /* CUYPAY */,
 				B742570F2DB05EE100DA7613 /* Products */,
 			);
@@ -79,21 +65,18 @@
 		B74257102DB05EE100DA7613 /* CUYPAY */ = {
 			isa = PBXGroup;
 			children = (
-				6C4CD3192DC0A2FC00CA187F /* Usuario.swift */,
+				6CC98B622DC4A82700F154C3 /* class */,
+				6CC98B772DC4A97F00F154C3 /* viewController */,
+				6CC98B812DC4A99700F154C3 /* viewCell */,
+				6CC98B652DC4A91200F154C3 /* coreDataClass */,
+				6CC98B662DC4A91E00F154C3 /* coreDataProperties */,
 				B74257112DB05EE100DA7613 /* AppDelegate.swift */,
 				B74257132DB05EE100DA7613 /* SceneDelegate.swift */,
-				B74257152DB05EE100DA7613 /* ViewController.swift */,
 				B74257172DB05EE100DA7613 /* Main.storyboard */,
-				6C4CD3212DC0A82600CA187F /* registrarSegundaParteViewController.swift */,
-				6C4CD31F2DC0A53800CA187F /* registrarPrimeraParteViewController.swift */,
-				B7429B402DC013BF0000F62E /* MovimentoTableViewCell.swift */,
-				B7429B462DC01DD60000F62E /* Movimiento.swift */,
 				B742571D2DB05EE200DA7613 /* Assets.xcassets */,
 				B742571F2DB05EE200DA7613 /* LaunchScreen.storyboard */,
 				B74257222DB05EE200DA7613 /* Info.plist */,
 				B742571A2DB05EE100DA7613 /* CUYPAY.xcdatamodeld */,
-				B7429B3C2DBFFFC60000F62E /* CalcularMovimientoViewController.swift */,
-				B7429B3E2DC010A90000F62E /* ListarMovimientoViewController.swift */,
 			);
 			path = CUYPAY;
 			sourceTree = "<group>";
@@ -112,6 +95,13 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6CC98B622DC4A82700F154C3 /* class */,
+				6CC98B652DC4A91200F154C3 /* coreDataClass */,
+				6CC98B662DC4A91E00F154C3 /* coreDataProperties */,
+				6CC98B772DC4A97F00F154C3 /* viewController */,
+				6CC98B812DC4A99700F154C3 /* viewCell */,
 			);
 			name = CUYPAY;
 			packageProductDependencies = (
@@ -171,19 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7429B3D2DBFFFC60000F62E /* CalcularMovimientoViewController.swift in Sources */,
-				B74257162DB05EE100DA7613 /* ViewController.swift in Sources */,
-				6C4CD3222DC0A82600CA187F /* registrarSegundaParteViewController.swift in Sources */,
-				6C4CD3202DC0A53800CA187F /* registrarPrimeraParteViewController.swift in Sources */,
-				B7429B452DC015EF0000F62E /* user+CoreDataProperties.swift in Sources */,
 				B74257122DB05EE100DA7613 /* AppDelegate.swift in Sources */,
-				B7429B472DC01DD60000F62E /* Movimiento.swift in Sources */,
 				B742571C2DB05EE100DA7613 /* CUYPAY.xcdatamodeld in Sources */,
-				B7429B3F2DC010A90000F62E /* ListarMovimientoViewController.swift in Sources */,
 				B74257142DB05EE100DA7613 /* SceneDelegate.swift in Sources */,
-				B7429B442DC015EF0000F62E /* user+CoreDataClass.swift in Sources */,
-				B7429B412DC013BF0000F62E /* MovimentoTableViewCell.swift in Sources */,
-				6C4CD31A2DC0A2FC00CA187F /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
