@@ -544,6 +544,9 @@
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="confirmar:" destination="tmB-WL-EZe" eventType="touchUpInside" id="3Ih-fv-akU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R2C-VF-Nix"/>
@@ -579,6 +582,7 @@
                     <connections>
                         <outlet property="bntTipo" destination="3pf-uZ-D0s" id="EEc-7o-b6W"/>
                         <outlet property="bntTipoGasto" destination="aSq-cr-ajx" id="cMY-pq-jRv"/>
+                        <outlet property="montoText" destination="b3H-zL-wb9" id="ngP-75-ipA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ChK-H1-Nnh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -611,20 +615,20 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moviminetoCelda" id="S17-mJ-jMi" customClass="MovimentoTableViewCell" customModule="CUYPAY" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="50" width="344" height="43"/>
+                                                <rect key="frame" x="0.0" y="50" width="344" height="43.666667938232422"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S17-mJ-jMi" id="BIR-v1-qtq">
-                                                    <rect key="frame" x="0.0" y="0.0" width="344" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="344" height="43.666667938232422"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdB-Jc-Ymr">
-                                                            <rect key="frame" x="20" y="11" width="91" height="21"/>
+                                                            <rect key="frame" x="20" y="11.000000000000002" width="91" height="21.666666666666671"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="monto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6e-ya-a8A">
-                                                            <rect key="frame" x="275" y="11" width="49" height="21"/>
+                                                            <rect key="frame" x="275" y="11.000000000000002" width="49" height="21.666666666666671"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>

@@ -7,8 +7,8 @@
 
 import Foundation
 struct Movimiento{
-    let monto: Double
-    let descripcion: String
-    let tipo: String
+    var monto: Double
+    var descripcion: String
+    var tipo: String
     
 }
