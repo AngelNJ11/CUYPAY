@@ -496,6 +496,9 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <menu key="menu" id="r2r-T9-kqr">
                                     <children>
+                                        <command title="Item" id="rV4-3u-wNb"/>
+                                        <command title="Item" id="Eax-0M-iYg"/>
+                                        <command title="Item" id="je2-OI-0eE"/>
                                         <command title="Item 1" id="TTI-aI-0Q8"/>
                                         <command title="Item 2" id="Oh0-1T-8bz"/>
                                     </children>
@@ -587,20 +590,20 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moviminetoCelda" id="S17-mJ-jMi" customClass="MovimentoTableViewCell" customModule="CUYPAY" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="50" width="344" height="42.666667938232422"/>
+                                                <rect key="frame" x="0.0" y="50" width="344" height="43"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S17-mJ-jMi" id="BIR-v1-qtq">
-                                                    <rect key="frame" x="0.0" y="0.0" width="344" height="42.666667938232422"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="344" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdB-Jc-Ymr">
-                                                            <rect key="frame" x="20" y="11.000000000000002" width="91" height="20.666666666666671"/>
+                                                            <rect key="frame" x="20" y="11" width="91" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="monto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6e-ya-a8A">
-                                                            <rect key="frame" x="275" y="11.000000000000002" width="49" height="20.666666666666671"/>
+                                                            <rect key="frame" x="275" y="11" width="49" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
