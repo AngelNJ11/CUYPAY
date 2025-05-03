@@ -402,7 +402,7 @@
                                 <rect key="frame" x="0.0" y="130" width="393" height="722"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nc8-gQ-QUs">
-                                <rect key="frame" x="114" y="693" width="165" height="45"/>
+                                <rect key="frame" x="114" y="743" width="165" height="45"/>
                                 <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Kfa-i8-Ea8"/>
@@ -496,11 +496,31 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <menu key="menu" id="r2r-T9-kqr">
                                     <children>
-                                        <command title="Item" id="rV4-3u-wNb"/>
-                                        <command title="Item" id="Eax-0M-iYg"/>
-                                        <command title="Item" id="je2-OI-0eE"/>
-                                        <command title="Item 1" id="TTI-aI-0Q8"/>
-                                        <command title="Item 2" id="Oh0-1T-8bz"/>
+                                        <command title="Comida" id="rV4-3u-wNb">
+                                            <connections>
+                                                <action selector="selecccionarTipoGasto:" destination="ChK-H1-Nnh" id="v1Z-jL-lTI"/>
+                                            </connections>
+                                        </command>
+                                        <command title="Ropa" id="Eax-0M-iYg">
+                                            <connections>
+                                                <action selector="selecccionarTipoGasto:" destination="ChK-H1-Nnh" id="nTn-wM-Hr6"/>
+                                            </connections>
+                                        </command>
+                                        <command title="Salud" id="je2-OI-0eE">
+                                            <connections>
+                                                <action selector="selecccionarTipoGasto:" destination="ChK-H1-Nnh" id="Oza-wq-Ed8"/>
+                                            </connections>
+                                        </command>
+                                        <command title="Calzado" id="TTI-aI-0Q8">
+                                            <connections>
+                                                <action selector="selecccionarTipoGasto:" destination="ChK-H1-Nnh" id="s8M-uc-xJU"/>
+                                            </connections>
+                                        </command>
+                                        <command title="Juegos" id="Oh0-1T-8bz">
+                                            <connections>
+                                                <action selector="selecccionarTipoGasto:" destination="ChK-H1-Nnh" id="EOD-Fv-OXF"/>
+                                            </connections>
+                                        </command>
                                     </children>
                                 </menu>
                                 <state key="normal" title="Seleccionar"/>
@@ -511,7 +531,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etv-To-Zis">
-                                <rect key="frame" x="100" y="608" width="193" height="45"/>
+                                <rect key="frame" x="100" y="658" width="193" height="45"/>
                                 <color key="backgroundColor" red="0.39996820690000001" green="0.54510354999999999" blue="0.5333304405" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="aDa-v9-0RC"/>
@@ -546,7 +566,7 @@
                             <constraint firstItem="3pf-uZ-D0s" firstAttribute="top" secondItem="gmJ-mu-g7C" secondAttribute="bottom" constant="20" id="cbt-CO-Z0X"/>
                             <constraint firstItem="R2C-VF-Nix" firstAttribute="trailing" secondItem="b3H-zL-wb9" secondAttribute="trailing" constant="100" id="dFi-9Y-Ftu"/>
                             <constraint firstItem="aSq-cr-ajx" firstAttribute="top" secondItem="3pf-uZ-D0s" secondAttribute="bottom" constant="30" id="e83-TR-nhf"/>
-                            <constraint firstItem="R2C-VF-Nix" firstAttribute="bottom" secondItem="nc8-gQ-QUs" secondAttribute="bottom" constant="80" id="gBo-5m-m2K"/>
+                            <constraint firstItem="R2C-VF-Nix" firstAttribute="bottom" secondItem="nc8-gQ-QUs" secondAttribute="bottom" constant="30" id="gBo-5m-m2K"/>
                             <constraint firstItem="gmJ-mu-g7C" firstAttribute="centerX" secondItem="8h5-S3-yUq" secondAttribute="centerX" id="gwv-wz-Ve1"/>
                             <constraint firstItem="3bh-dw-YIb" firstAttribute="leading" secondItem="8h5-S3-yUq" secondAttribute="leading" id="pla-nk-0Iq"/>
                             <constraint firstItem="nc8-gQ-QUs" firstAttribute="top" secondItem="etv-To-Zis" secondAttribute="bottom" constant="40" id="s7B-04-JUZ"/>
@@ -558,6 +578,7 @@
                     <navigationItem key="navigationItem" id="3ik-yh-vBG"/>
                     <connections>
                         <outlet property="bntTipo" destination="3pf-uZ-D0s" id="EEc-7o-b6W"/>
+                        <outlet property="bntTipoGasto" destination="aSq-cr-ajx" id="cMY-pq-jRv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ChK-H1-Nnh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
